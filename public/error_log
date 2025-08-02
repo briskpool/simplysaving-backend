@@ -1,0 +1,235 @@
+[22-May-2024 11:51:56 UTC] PHP Fatal error:  During inheritance of IteratorAggregate: Uncaught ErrorException: Return type of Symfony\Component\Finder\Iterator\SortableIterator::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/edmcb9nyq85n/public_html/portal/vendor/symfony/finder/Iterator/SortableIterator.php:84
+Stack trace:
+#0 /home/edmcb9nyq85n/public_html/portal/vendor/symfony/finder/Iterator/SortableIterator.php(19): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/edmcb9nyq85n/public_html/portal/vendor/composer/ClassLoader.php(480): include('/home/edmcb9nyq...')
+#2 /home/edmcb9nyq85n/public_html/portal/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile()
+#3 /home/edmcb9nyq85n/public_html/portal/vendor/symfony/finder/Finder.php(438): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(563): Symfony\Component\Finder\Finder->sortByName()
+#5 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/WhoopsHandler.php(50): Illuminate\Filesystem\Filesystem->directories()
+#6 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/WhoopsHandler.php(36): Illuminate\Foundation\Exceptions\WhoopsHandler->directoriesExceptVendor()
+#7 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/WhoopsHandler.php(21): Illuminate\Foundation\Exceptions\WhoopsHandler->registerApplicationPaths()
+#8 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Support/helpers.php(263): Illuminate\Foundation\Exceptions\WhoopsHandler->Illuminate\Foundation\Exceptions\{closure}()
+#9 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/WhoopsHandler.php(18): tap()
+#10 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(539): Illuminate\Foundation\Exceptions\WhoopsHandler->forDebug()
+#11 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(521): Illuminate\Foundation\Exceptions\Handler->whoopsHandler()
+#12 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Support/helpers.php(263): Illuminate\Foundation\Exceptions\Handler->Illuminate\Foundation\Exceptions\{closure}()
+#13 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(520): tap()
+#14 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(505): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithWhoops()
+#15 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(489): Illuminate\Foundation\Exceptions\Handler->renderExceptionContent()
+#16 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(468): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse()
+#17 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(354): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#18 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(426): Illuminate\Foundation\Exceptions\Handler->render()
+#19 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(114): Illuminate\Foundation\Http\Kernel->renderException()
+#20 /home/edmcb9nyq85n/public_html/portal/public/index.php(51): Illuminate\Foundation\Http\Kernel->handle()
+#21 {main} in /home/edmcb9nyq85n/public_html/portal/vendor/symfony/finder/Iterator/SortableIterator.php on line 19
+[22-May-2024 11:52:02 UTC] PHP Fatal error:  During inheritance of IteratorAggregate: Uncaught ErrorException: Return type of Symfony\Component\Finder\Iterator\SortableIterator::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/edmcb9nyq85n/public_html/portal/vendor/symfony/finder/Iterator/SortableIterator.php:84
+Stack trace:
+#0 /home/edmcb9nyq85n/public_html/portal/vendor/symfony/finder/Iterator/SortableIterator.php(19): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/edmcb9nyq85n/public_html/portal/vendor/composer/ClassLoader.php(480): include('/home/edmcb9nyq...')
+#2 /home/edmcb9nyq85n/public_html/portal/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile()
+#3 /home/edmcb9nyq85n/public_html/portal/vendor/symfony/finder/Finder.php(438): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(563): Symfony\Component\Finder\Finder->sortByName()
+#5 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/WhoopsHandler.php(50): Illuminate\Filesystem\Filesystem->directories()
+#6 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/WhoopsHandler.php(36): Illuminate\Foundation\Exceptions\WhoopsHandler->directoriesExceptVendor()
+#7 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/WhoopsHandler.php(21): Illuminate\Foundation\Exceptions\WhoopsHandler->registerApplicationPaths()
+#8 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Support/helpers.php(263): Illuminate\Foundation\Exceptions\WhoopsHandler->Illuminate\Foundation\Exceptions\{closure}()
+#9 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/WhoopsHandler.php(18): tap()
+#10 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(539): Illuminate\Foundation\Exceptions\WhoopsHandler->forDebug()
+#11 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(521): Illuminate\Foundation\Exceptions\Handler->whoopsHandler()
+#12 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Support/helpers.php(263): Illuminate\Foundation\Exceptions\Handler->Illuminate\Foundation\Exceptions\{closure}()
+#13 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(520): tap()
+#14 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(505): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithWhoops()
+#15 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(489): Illuminate\Foundation\Exceptions\Handler->renderExceptionContent()
+#16 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(468): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse()
+#17 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(354): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#18 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(426): Illuminate\Foundation\Exceptions\Handler->render()
+#19 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(114): Illuminate\Foundation\Http\Kernel->renderException()
+#20 /home/edmcb9nyq85n/public_html/portal/public/index.php(51): Illuminate\Foundation\Http\Kernel->handle()
+#21 {main} in /home/edmcb9nyq85n/public_html/portal/vendor/symfony/finder/Iterator/SortableIterator.php on line 19
+[22-May-2024 11:52:09 UTC] PHP Fatal error:  During inheritance of IteratorAggregate: Uncaught ErrorException: Return type of Symfony\Component\Finder\Iterator\SortableIterator::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/edmcb9nyq85n/public_html/portal/vendor/symfony/finder/Iterator/SortableIterator.php:84
+Stack trace:
+#0 /home/edmcb9nyq85n/public_html/portal/vendor/symfony/finder/Iterator/SortableIterator.php(19): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/edmcb9nyq85n/public_html/portal/vendor/composer/ClassLoader.php(480): include('/home/edmcb9nyq...')
+#2 /home/edmcb9nyq85n/public_html/portal/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile()
+#3 /home/edmcb9nyq85n/public_html/portal/vendor/symfony/finder/Finder.php(438): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(563): Symfony\Component\Finder\Finder->sortByName()
+#5 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/WhoopsHandler.php(50): Illuminate\Filesystem\Filesystem->directories()
+#6 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/WhoopsHandler.php(36): Illuminate\Foundation\Exceptions\WhoopsHandler->directoriesExceptVendor()
+#7 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/WhoopsHandler.php(21): Illuminate\Foundation\Exceptions\WhoopsHandler->registerApplicationPaths()
+#8 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Support/helpers.php(263): Illuminate\Foundation\Exceptions\WhoopsHandler->Illuminate\Foundation\Exceptions\{closure}()
+#9 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/WhoopsHandler.php(18): tap()
+#10 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(539): Illuminate\Foundation\Exceptions\WhoopsHandler->forDebug()
+#11 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(521): Illuminate\Foundation\Exceptions\Handler->whoopsHandler()
+#12 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Support/helpers.php(263): Illuminate\Foundation\Exceptions\Handler->Illuminate\Foundation\Exceptions\{closure}()
+#13 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(520): tap()
+#14 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(505): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithWhoops()
+#15 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(489): Illuminate\Foundation\Exceptions\Handler->renderExceptionContent()
+#16 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(468): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse()
+#17 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(354): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#18 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(426): Illuminate\Foundation\Exceptions\Handler->render()
+#19 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(114): Illuminate\Foundation\Http\Kernel->renderException()
+#20 /home/edmcb9nyq85n/public_html/portal/public/index.php(51): Illuminate\Foundation\Http\Kernel->handle()
+#21 {main} in /home/edmcb9nyq85n/public_html/portal/vendor/symfony/finder/Iterator/SortableIterator.php on line 19
+[22-May-2024 11:52:29 UTC] PHP Fatal error:  During inheritance of IteratorAggregate: Uncaught ErrorException: Return type of Symfony\Component\Finder\Iterator\SortableIterator::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/edmcb9nyq85n/public_html/portal/vendor/symfony/finder/Iterator/SortableIterator.php:84
+Stack trace:
+#0 /home/edmcb9nyq85n/public_html/portal/vendor/symfony/finder/Iterator/SortableIterator.php(19): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/edmcb9nyq85n/public_html/portal/vendor/composer/ClassLoader.php(480): include('/home/edmcb9nyq...')
+#2 /home/edmcb9nyq85n/public_html/portal/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile()
+#3 /home/edmcb9nyq85n/public_html/portal/vendor/symfony/finder/Finder.php(438): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(563): Symfony\Component\Finder\Finder->sortByName()
+#5 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/WhoopsHandler.php(50): Illuminate\Filesystem\Filesystem->directories()
+#6 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/WhoopsHandler.php(36): Illuminate\Foundation\Exceptions\WhoopsHandler->directoriesExceptVendor()
+#7 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/WhoopsHandler.php(21): Illuminate\Foundation\Exceptions\WhoopsHandler->registerApplicationPaths()
+#8 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Support/helpers.php(263): Illuminate\Foundation\Exceptions\WhoopsHandler->Illuminate\Foundation\Exceptions\{closure}()
+#9 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/WhoopsHandler.php(18): tap()
+#10 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(539): Illuminate\Foundation\Exceptions\WhoopsHandler->forDebug()
+#11 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(521): Illuminate\Foundation\Exceptions\Handler->whoopsHandler()
+#12 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Support/helpers.php(263): Illuminate\Foundation\Exceptions\Handler->Illuminate\Foundation\Exceptions\{closure}()
+#13 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(520): tap()
+#14 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(505): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithWhoops()
+#15 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(489): Illuminate\Foundation\Exceptions\Handler->renderExceptionContent()
+#16 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(468): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse()
+#17 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(354): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#18 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(426): Illuminate\Foundation\Exceptions\Handler->render()
+#19 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(114): Illuminate\Foundation\Http\Kernel->renderException()
+#20 /home/edmcb9nyq85n/public_html/portal/public/index.php(51): Illuminate\Foundation\Http\Kernel->handle()
+#21 {main} in /home/edmcb9nyq85n/public_html/portal/vendor/symfony/finder/Iterator/SortableIterator.php on line 19
+[22-May-2024 11:52:41 UTC] PHP Fatal error:  During inheritance of IteratorAggregate: Uncaught ErrorException: Return type of Symfony\Component\Finder\Iterator\SortableIterator::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/edmcb9nyq85n/public_html/portal/vendor/symfony/finder/Iterator/SortableIterator.php:84
+Stack trace:
+#0 /home/edmcb9nyq85n/public_html/portal/vendor/symfony/finder/Iterator/SortableIterator.php(19): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/edmcb9nyq85n/public_html/portal/vendor/composer/ClassLoader.php(480): include('/home/edmcb9nyq...')
+#2 /home/edmcb9nyq85n/public_html/portal/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile()
+#3 /home/edmcb9nyq85n/public_html/portal/vendor/symfony/finder/Finder.php(438): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(563): Symfony\Component\Finder\Finder->sortByName()
+#5 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/WhoopsHandler.php(50): Illuminate\Filesystem\Filesystem->directories()
+#6 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/WhoopsHandler.php(36): Illuminate\Foundation\Exceptions\WhoopsHandler->directoriesExceptVendor()
+#7 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/WhoopsHandler.php(21): Illuminate\Foundation\Exceptions\WhoopsHandler->registerApplicationPaths()
+#8 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Support/helpers.php(263): Illuminate\Foundation\Exceptions\WhoopsHandler->Illuminate\Foundation\Exceptions\{closure}()
+#9 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/WhoopsHandler.php(24): tap()
+#10 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(539): Illuminate\Foundation\Exceptions\WhoopsHandler->forDebug()
+#11 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(521): Illuminate\Foundation\Exceptions\Handler->whoopsHandler()
+#12 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Support/helpers.php(263): Illuminate\Foundation\Exceptions\Handler->Illuminate\Foundation\Exceptions\{closure}()
+#13 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(526): tap()
+#14 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(505): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithWhoops()
+#15 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(489): Illuminate\Foundation\Exceptions\Handler->renderExceptionContent()
+#16 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(468): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse()
+#17 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(354): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#18 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(426): Illuminate\Foundation\Exceptions\Handler->render()
+#19 /home/edmcb9nyq85n/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(114): Illuminate\Foundation\Http\Kernel->renderException()
+#20 /home/edmcb9nyq85n/public_html/portal/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle()
+#21 {main} in /home/edmcb9nyq85n/public_html/portal/vendor/symfony/finder/Iterator/SortableIterator.php on line 19
+[04-May-2025 06:15:35 UTC] PHP Warning:  require(/home/l2apyc1bq78e/public_html/portal/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/l2apyc1bq78e/public_html/portal/public/index.php on line 34
+[04-May-2025 06:15:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/l2apyc1bq78e/public_html/portal/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/l2apyc1bq78e/public_html/portal/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/l2apyc1bq78e/public_html/portal/public/index.php on line 34
+[04-May-2025 06:19:20 UTC] PHP Warning:  require(/home/l2apyc1bq78e/public_html/portal/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/l2apyc1bq78e/public_html/portal/public/index.php on line 34
+[04-May-2025 06:19:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/l2apyc1bq78e/public_html/portal/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/l2apyc1bq78e/public_html/portal/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/l2apyc1bq78e/public_html/portal/public/index.php on line 34
+[04-May-2025 06:21:34 UTC] PHP Warning:  require(/home/l2apyc1bq78e/public_html/portal/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/l2apyc1bq78e/public_html/portal/public/index.php on line 34
+[04-May-2025 06:21:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/l2apyc1bq78e/public_html/portal/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/l2apyc1bq78e/public_html/portal/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/l2apyc1bq78e/public_html/portal/public/index.php on line 34
+[04-May-2025 06:21:39 UTC] PHP Warning:  require(/home/l2apyc1bq78e/public_html/portal/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/l2apyc1bq78e/public_html/portal/public/index.php on line 34
+[04-May-2025 06:21:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/l2apyc1bq78e/public_html/portal/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/l2apyc1bq78e/public_html/portal/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/l2apyc1bq78e/public_html/portal/public/index.php on line 34
+[04-May-2025 06:22:45 UTC] PHP Warning:  require(/home/l2apyc1bq78e/public_html/portal/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/l2apyc1bq78e/public_html/portal/public/index.php on line 34
+[04-May-2025 06:22:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/l2apyc1bq78e/public_html/portal/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/l2apyc1bq78e/public_html/portal/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/l2apyc1bq78e/public_html/portal/public/index.php on line 34
+[04-May-2025 06:26:49 UTC] PHP Fatal error:  During inheritance of Opis\Closure\SerializableClosure, while implementing Serializable: Uncaught ErrorException: Opis\Closure\SerializableClosure implements the Serializable interface, which is deprecated. Implement __serialize() and __unserialize() instead (or in addition, if support for old PHP versions is necessary) in /home/l2apyc1bq78e/public_html/portal/vendor/opis/closure/src/SerializableClosure.php:18
+Stack trace:
+#0 /home/l2apyc1bq78e/public_html/portal/vendor/opis/closure/src/SerializableClosure.php(18): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/l2apyc1bq78e/public_html/portal/vendor/composer/ClassLoader.php(480): include('/home/l2apyc1bq...')
+#2 /home/l2apyc1bq78e/public_html/portal/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile()
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#4 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php(45): class_exists()
+#5 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php(19): Illuminate\Encryption\EncryptionServiceProvider->registerOpisSecurityKey()
+#6 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(672): Illuminate\Encryption\EncryptionServiceProvider->register()
+#7 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(75): Illuminate\Foundation\Application->register()
+#8 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(649): Illuminate\Foundation\ProviderRepository->load()
+#9 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#10 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap()
+#11 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#12 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#13 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#14 /home/l2apyc1bq78e/public_html/portal/public/index.php(51): Illuminate\Foundation\Http\Kernel->handle()
+#15 {main} in /home/l2apyc1bq78e/public_html/portal/vendor/opis/closure/src/SerializableClosure.php on line 18
+[04-May-2025 06:26:50 UTC] PHP Fatal error:  During inheritance of Opis\Closure\SerializableClosure, while implementing Serializable: Uncaught ErrorException: Opis\Closure\SerializableClosure implements the Serializable interface, which is deprecated. Implement __serialize() and __unserialize() instead (or in addition, if support for old PHP versions is necessary) in /home/l2apyc1bq78e/public_html/portal/vendor/opis/closure/src/SerializableClosure.php:18
+Stack trace:
+#0 /home/l2apyc1bq78e/public_html/portal/vendor/opis/closure/src/SerializableClosure.php(18): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/l2apyc1bq78e/public_html/portal/vendor/composer/ClassLoader.php(480): include('/home/l2apyc1bq...')
+#2 /home/l2apyc1bq78e/public_html/portal/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile()
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#4 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php(45): class_exists()
+#5 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php(19): Illuminate\Encryption\EncryptionServiceProvider->registerOpisSecurityKey()
+#6 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(672): Illuminate\Encryption\EncryptionServiceProvider->register()
+#7 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(75): Illuminate\Foundation\Application->register()
+#8 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(649): Illuminate\Foundation\ProviderRepository->load()
+#9 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#10 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap()
+#11 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#12 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#13 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#14 /home/l2apyc1bq78e/public_html/portal/public/index.php(51): Illuminate\Foundation\Http\Kernel->handle()
+#15 {main} in /home/l2apyc1bq78e/public_html/portal/vendor/opis/closure/src/SerializableClosure.php on line 18
+[04-May-2025 06:26:51 UTC] PHP Fatal error:  During inheritance of Opis\Closure\SerializableClosure, while implementing Serializable: Uncaught ErrorException: Opis\Closure\SerializableClosure implements the Serializable interface, which is deprecated. Implement __serialize() and __unserialize() instead (or in addition, if support for old PHP versions is necessary) in /home/l2apyc1bq78e/public_html/portal/vendor/opis/closure/src/SerializableClosure.php:18
+Stack trace:
+#0 /home/l2apyc1bq78e/public_html/portal/vendor/opis/closure/src/SerializableClosure.php(18): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/l2apyc1bq78e/public_html/portal/vendor/composer/ClassLoader.php(480): include('/home/l2apyc1bq...')
+#2 /home/l2apyc1bq78e/public_html/portal/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile()
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#4 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php(45): class_exists()
+#5 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php(19): Illuminate\Encryption\EncryptionServiceProvider->registerOpisSecurityKey()
+#6 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(672): Illuminate\Encryption\EncryptionServiceProvider->register()
+#7 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(75): Illuminate\Foundation\Application->register()
+#8 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(649): Illuminate\Foundation\ProviderRepository->load()
+#9 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#10 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap()
+#11 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#12 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#13 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#14 /home/l2apyc1bq78e/public_html/portal/public/index.php(51): Illuminate\Foundation\Http\Kernel->handle()
+#15 {main} in /home/l2apyc1bq78e/public_html/portal/vendor/opis/closure/src/SerializableClosure.php on line 18
+[04-May-2025 06:27:08 UTC] PHP Fatal error:  During inheritance of Opis\Closure\SerializableClosure, while implementing Serializable: Uncaught ErrorException: Opis\Closure\SerializableClosure implements the Serializable interface, which is deprecated. Implement __serialize() and __unserialize() instead (or in addition, if support for old PHP versions is necessary) in /home/l2apyc1bq78e/public_html/portal/vendor/opis/closure/src/SerializableClosure.php:18
+Stack trace:
+#0 /home/l2apyc1bq78e/public_html/portal/vendor/opis/closure/src/SerializableClosure.php(18): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/l2apyc1bq78e/public_html/portal/vendor/composer/ClassLoader.php(480): include('/home/l2apyc1bq...')
+#2 /home/l2apyc1bq78e/public_html/portal/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile()
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#4 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php(45): class_exists()
+#5 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php(19): Illuminate\Encryption\EncryptionServiceProvider->registerOpisSecurityKey()
+#6 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(672): Illuminate\Encryption\EncryptionServiceProvider->register()
+#7 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(75): Illuminate\Foundation\Application->register()
+#8 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(649): Illuminate\Foundation\ProviderRepository->load()
+#9 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#10 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap()
+#11 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#12 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#13 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#14 /home/l2apyc1bq78e/public_html/portal/public/index.php(51): Illuminate\Foundation\Http\Kernel->handle()
+#15 {main} in /home/l2apyc1bq78e/public_html/portal/vendor/opis/closure/src/SerializableClosure.php on line 18
+[04-May-2025 06:27:27 UTC] PHP Fatal error:  During inheritance of Opis\Closure\SerializableClosure, while implementing Serializable: Uncaught ErrorException: Opis\Closure\SerializableClosure implements the Serializable interface, which is deprecated. Implement __serialize() and __unserialize() instead (or in addition, if support for old PHP versions is necessary) in /home/l2apyc1bq78e/public_html/portal/vendor/opis/closure/src/SerializableClosure.php:18
+Stack trace:
+#0 /home/l2apyc1bq78e/public_html/portal/vendor/opis/closure/src/SerializableClosure.php(18): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/l2apyc1bq78e/public_html/portal/vendor/composer/ClassLoader.php(480): include('/home/l2apyc1bq...')
+#2 /home/l2apyc1bq78e/public_html/portal/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile()
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#4 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php(45): class_exists()
+#5 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php(19): Illuminate\Encryption\EncryptionServiceProvider->registerOpisSecurityKey()
+#6 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(672): Illuminate\Encryption\EncryptionServiceProvider->register()
+#7 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(75): Illuminate\Foundation\Application->register()
+#8 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(649): Illuminate\Foundation\ProviderRepository->load()
+#9 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#10 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap()
+#11 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#12 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#13 /home/l2apyc1bq78e/public_html/portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#14 /home/l2apyc1bq78e/public_html/portal/public/index.php(51): Illuminate\Foundation\Http\Kernel->handle()
+#15 {main} in /home/l2apyc1bq78e/public_html/portal/vendor/opis/closure/src/SerializableClosure.php on line 18
