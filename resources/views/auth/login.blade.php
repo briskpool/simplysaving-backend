@@ -17,7 +17,7 @@
     </div> --}}
 <div class="authentication">
     <div class="container h-100">
-        <div class="row justify-content-center h-100 align-items-center">
+        <div class="row vh-100 justify-content-center align-items-center">
 
             <div class="col-xl-5 col-md-6">
                 <div class="mini-logo text-center my-3">
@@ -28,7 +28,7 @@
                 <div class="text-danger p-3">
                     {{ $message }}
                     <br>
-                    Can you please contact IG Global at <span class="text-dark">{{ env('MAIL_FROM_ADDRESS') }}</span> or
+                    Can you please contact us at <span class="text-dark">{{ env('MAIL_FROM_ADDRESS') }}</span> or
                     by calling us on <br> <span class="text-dark">{{ env('PHONE_NUMBER') }}
                     </span>.
                 </div>
@@ -87,7 +87,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <div class="py-2 mb-4 d-flex justify-content-center">
+                        <div class="py-2 text-light mb-4 d-flex justify-content-center">
                             Copyright © {{env('APP_NAME')}} <?php echo date("Y"); ?>
                         </div>
                     </div>
