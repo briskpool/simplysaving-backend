@@ -2752,7 +2752,7 @@ textarea.form-control.is-invalid {
   display: inline-block;
   text-transform: uppercase;
   font-family: "DM Sans";
-  font-weight: 400 !important;
+  font-weight: 600 !important;
   color: #8691b4;
   text-align: center;
   vertical-align: middle;
@@ -2796,15 +2796,22 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #167a4e;
-  border-color: #167a4e;
+  padding: 8px 12px !important;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  line-height: 38px;
+  width: auto;
+  font-size: 20px;
+  border-radius: 100px !important;
+  background: #167a4e;
+  border: 2px solid #167a4e;
+  box-shadow: 0 4px 4px -4px rgba(12, 12, 13, 0.05), 0 16px 16px -8px rgba(12, 12, 13, 0.153);
 }
 
 .btn-primary:hover {
   color: #167a4e;
   background-color: transparent;
-  border-color: #167a4e;
+  border: 2px solid #167a4e;
 }
 
 .btn-primary:focus,
@@ -13708,7 +13715,7 @@ button,
 }
 
 .form-group {
-      max-width: 420px;
+      /* max-width: 420px; */
     }
 
 .form-group label#membership_type_label {
