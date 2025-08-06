@@ -28,9 +28,7 @@
                 <div class="text-danger p-3">
                     {{ $message }}
                     <br>
-                    Can you please contact us at <span class="text-dark">{{ env('MAIL_FROM_ADDRESS') }}</span> or
-                    by calling us on <br> <span class="text-dark">{{ env('PHONE_NUMBER') }}
-                    </span>.
+                    Can you please contact us at <span class="text-light">{{ env('MAIL_FROM_ADDRESS') }}</span>
                 </div>
                 @enderror
                 <div class="auth-form card">
