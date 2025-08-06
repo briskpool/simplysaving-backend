@@ -83,6 +83,16 @@
 
                     </div>
                 </div>
+                <div class="d-flex justify-content-center grid order-3 grid-cols-4 gap-2 lg:order-2 lg:gap-6"><img
+                        alt="g2 users love us badge" loading="lazy" width="60" height="78" decoding="async"
+                        data-nimg="1" src="https://simplysavings.com/images/content-img/users-love-us.svg" style="color: transparent;"><img
+                        alt="review management momentum leader badge" loading="lazy" width="60" height="78"
+                        decoding="async" data-nimg="1" src="https://simplysavings.com/images/content-img/momentumleader_leader.svg"
+                        style="color: transparent;"><img alt="review management high performer small business badge"
+                        loading="lazy" width="60" height="78" decoding="async" data-nimg="1"
+                        src="https://simplysavings.com/images/content-img/highperformer.svg" style="color: transparent;">
+                </div>
+
                 <div class="row">
                     <div class="col-12">
                         <div class="py-2 text-light mb-4 d-flex justify-content-center">
@@ -90,6 +100,7 @@
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>
