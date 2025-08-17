@@ -10,7 +10,7 @@
                     </div>
                     <div class="auth-form card">
                         <div class="card-header login-card-header justify-content-center">
-                            <h4 class="card-title">Reset Passwords</h4>
+                            <h4 class="card-title">Reset Password</h4>
                         </div>
                         <div class="card-body login-card-header">
                             <form method="POST" action="{{ route('password.update') }}">
