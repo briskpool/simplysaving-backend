@@ -92,14 +92,6 @@
                         loading="lazy" width="60" height="78" decoding="async" data-nimg="1"
                         src="https://simplysaving.com/images/content-img/highperformer.svg" style="color: transparent;">
                 </div>
-
-                <div class="row">
-                    <div class="col-12">
-                        <div class="py-2 text-light mb-4 d-flex justify-content-center">
-                            Copyright © {{env('APP_NAME')}} <?php echo date("Y"); ?>
-                        </div>
-                    </div>
-                </div>
                 
             </div>
         </div>
