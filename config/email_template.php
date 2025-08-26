@@ -1,9 +1,9 @@
 <?php
 return [
-    'logo' => 'https://simplysaving.com/templates/email-logo.png',
+    'logo' => 'https://simplysavings.com/templates/email-logo.png',
     'font_link' => 'https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,800&display=swap',
-    'website_link' => 'https://simplysaving.com',
-    'website_name' => 'simplysaving.com',
+    'website_link' => 'https://simplysavings.com',
+    'website_name' => 'simplysavings.com',
     'twitter' => '#',
     'linkedin' => '#',
     'rumble' => '#',
